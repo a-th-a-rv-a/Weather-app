@@ -1,17 +1,12 @@
-require('dotenv').config();
-
-const weather = {
-    apikey: process.env.API_KEY, // Access API key from environment variable
-    fetchWeather: function(city) {
-        fetch(`https://api.openweathermap.org/data/2.5/weather?q=${city}&units=metric&appid=${this.apikey}`)
-            .then((response) => {
-                if (!response.ok) {
-                    throw new Error("No weather data found.");
-                }
-                return response.json();
-            })
-            .then((data) => this.displayWeather(data))
-            .catch((error) => alert(error));
+let weather = {
+    "apikey": "f3a3aa2f696ff6923c6f170bb22b12df",
+    fetchWeather : function (city) {
+        fetch("https://api.openweathermap.org/data/2.5/weather?q=" 
+        + city 
+        + "&units=metric&appid=" 
+        + this.apikey)
+        .then((Response) => Response.json())
+        .then((data) => this.displayWeather(data));
     },
 
     displayWeather: function(data) {
@@ -29,7 +24,7 @@ const weather = {
         document.body.style.backgroundImage = "url('https://source.unsplash.com/1600x900/?" + name + "')"
     },
 
-    search: function() {
+    search : function() {
         this.fetchWeather(document.querySelector(".searchbar").value);
     }
 };
@@ -38,10 +33,10 @@ document.querySelector(".search button").addEventListener("click", function() {
     weather.search();
 });
 
-document.querySelector(".searchbar").addEventListener("keyup", function(event) {
-    if (event.key == "Enter") {
+document.querySelector(".searchbar").addEventListener("keyup", function(event){
+    if(event.key == "Enter"){
         weather.search();
     }
 });
 
-weather.fetchWeather("Durgapur");
+weather.fetchWeather("durgapur");
