@@ -134,7 +134,7 @@ const nightIcons = {
 
 
 let weather = {
-    "apikey": "YOUR_API_KEY",
+    "apikey": "f3a3aa2f696ff6923c6f170bb22b12df",
     fetchWeather : function (city) {
         fetch("https://api.openweathermap.org/data/2.5/weather?q=" 
         + city 
@@ -167,7 +167,8 @@ let weather = {
         document.querySelector(".humidity").innerText = "Humidity: " + humidity + "%";
         document.querySelector(".wind").innerText = "Wind speed: " + speed + " km/h";
         document.querySelector(".weather").classList.remove("loading");
-        document.body.style.backgroundImage = "url('https://source.unsplash.com/1600x900/?" + name + "')"
+        let fileName = `${description}-${isDay ? 'day' : 'night'}`;
+        document.body.style.backgroundImage = `url('backgrounds/${fileName}.jpg')`;
     },
 
     search : function() {
