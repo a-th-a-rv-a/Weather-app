@@ -66,13 +66,68 @@ const dayIcons = {
 
 const nightIcons = {
     "clear sky" : "all/clear-night.svg",
-    "overcast clouds" : "all/overcast-night.svg",
-    "mist" : "all/mist.svg",
-  
+    "overcast clouds" : "all/overcast-day.svg",
+    "broken clouds" : "all/overcast-day.svg",
+    "scattered clouds" : "all/cloudy.svg",
+    "few clouds" : "all/partly-cloudy-night.svg",
     
+    "tornado" : "all/tornado.svg",
+    "squalls" : "all/tornado.svg",
+    "volcanic ash" : "all/tornado.svg",
+
+    "dust" : "all/dust-night.svg",
+    "sand" : "all/dust-night.svg",
+    "fog" : "all/fog-night.svg",
+    "sand/dust whirls" : "all/dust-night.svg",
+    "haze" : "all/haze-night.svg",
+    "smoke" : "all/smoke.svg",
+    "mist" : "all/mist.svg",
+    "heavy shower snow" : "all/extreme-snow.svg",
+    "shower snow" : "all/extreme-night-snow.svg",
+    "light shower snow" : "all/overcast-night-snow.svg",
+    "rain and snow" : "all/overcast-sleet.svg",
+    "light rain and snow" : "all/overcast-sleet.svg",
+    "shower sleet" : "all/extreme-night-sleet.svg",
+    "light shower sleet" : "all/overcast-night-sleet.svg",
+    "sleet" : "all/sleet.svg",
+    "heavy snow" : "all/extreme-snow.svg",
+    "snow" : "all/snow.svg",
+    "light snow" : "all/snowflake.svg",
+    "light rain" : "all/partly-cloudy-night-drizzle.svg",
+    "moderate rain" : "all/partly-cloudy-night-rain.svg",
+    "heavy intensity rain" : "all/overcast-night-rain.svg",
+    "very heavy rain" : "all/extreme-night-rain.svg",
+    "extreme rain" : "all/extreme-night-rain.svg",
+    "freezing rain" : "all/snowflake.svg",
+    "light intensity shower rain" : "all/overcast-drizzle.svg",
+    "shower rain" : "all/overcast-night-rain.svg",
+    "heavy intensity shower rain" : "all/extreme-night-rain.svg",
+    "ragged shower rain" : "all/extreme-night-rain.svg",
+
+    "light intensity drizzle" : "all/partly-cloudy-night-drizzle.svg",
+    "drizzle" : "all/partly-cloudy-night-drizzle.svg",
+    "heavy intensity drizzle" : "all/extreme-night-rain.svg",
+    "light intensity drizzle rain" : "all/overcast-night-drizzle.svg",
+    "drizzle rain" : "all/overcast-night-drizzle.svg",
+    "heavy intensity drizzle rain" : "all/extreme-night-rain.svg",
+    "shower rain and drizzle" : "all/overcast-drizzle.svg",
+    "heavy shower rain and drizzle" : "all/extreme-night-rain.svg",
+    "shower drizzle" : "all/overcast-night-drizzle.svg",
+
+    "thunderstorm with light rain" : "all/thunderstorms-night-rain.svg",
+    "thunderstorm with rain" : "all/thunderstorms-night-overcast-rain.svg",
+    "thunderstorm with heavy rain" : "all/thunderstorms-night-extreme-rain.svg",
+    "light thunderstorm" : "all/lightning-bolt.svg",
+    "thunderstorm" : "all/thunderstorm-night.svg",
+    "heavy thunderstorm" : "all/thunderstorms-night-extreme.svg",
+    "ragged thunderstorm" : "all/thunderstorms-night-extreme.svg",
+    "thunderstorm with light drizzle" : "all/thunderstorms-night-rain.svg",
+    "thunderstorm with drizzle" : "all/thunderstorms-night-rain.svg",
+    "thunderstorm with heavy drizzle" : "all/thunderstorms-night-extreme-rain.svg",
 
 
 
+    
 };
 
 
